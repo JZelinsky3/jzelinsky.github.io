@@ -1,10 +1,11 @@
 body {
-    background:navy;
+    background:whitesmoke;
     font-family:Helvetica;
 }
 
 .assignment {
-    background:goldenrod;
+    display:flex;
+    background:#D79CFD;
     padding:25px;
     margin:15px;
 }
@@ -13,7 +14,40 @@ body {
     padding:15px;
 }
 
+.assignment img:hover {
+    border:4px dashed white;
+}
+
+.assignment2 {
+    background:#D79CFD;
+    padding:25px;
+    margin:15px;
+}
+
+.assignment2 img {
+    padding:15px;
+}
+
+.assignment2 img:hover {
+    border:4px dashed white;
+}
+
 h1 {
-    color:goldenrod;
+    color:#D79CFD;
     text-align:center;
 }
+
+h1:hover {
+    border:4px dashed #D79CFD;
+}
+
+a {
+    text-decoration:none;
+    color:whitesmoke
+}
+
+a:hover {
+    color:black;
+}
+
+#daa520
